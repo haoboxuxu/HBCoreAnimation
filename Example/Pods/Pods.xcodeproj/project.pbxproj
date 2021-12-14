@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125008E7C3C90770FC7A43C93D722DC8 /* Pods-HBCoreAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 784A5CA2F0D87B830F99D480218D5BD9 /* Pods-HBCoreAnimation_Tests-dummy.m */; };
+		27E97F855DA03F22C29C265829A2D90E /* Pods-HBCoreAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8210ED6E9D62D0FA0F8B1EE257619699 /* Pods-HBCoreAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DC33D5F313E07A336B3B9D81C1F1202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		327CC80E52019EC2321C768F45000368 /* HBCoreAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B8D94E4B863B693C09F1E5F339D51 /* HBCoreAnimation-dummy.m */; };
+		4B9A977409470315D5D374E01FA5248E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		588AA91AFD282F7E0D4A30C8B7AE5FA5 /* Pods-HBCoreAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1569E1399C357646F734F2F8399937 /* Pods-HBCoreAnimation_Example-dummy.m */; };
+		66CA2A41B38C58604250118763E89ECE /* Pods-HBCoreAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8873BD5392B7AF029029367050FE2FC7 /* Pods-HBCoreAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B703FED5F4EB07CD56709F25FC40D0 /* HBCoreAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A1B1C5D470040A572B916A3D095A0A /* HBCoreAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C7A3B92768C2DB006FE11D /* UIImageView+TickleMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C7A3B82768C2DB006FE11D /* UIImageView+TickleMe.swift */; };
+		FCF3EEB32D6D4F0EB593805ACB9E5338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8780D0973C475958B84529281436A4D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622F79312714EAC3C7EE13EC157D625A;
+			remoteInfo = HBCoreAnimation;
+		};
+		E389261A0B35D82C2DBE1543BBF1AB30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB16C68703CF3A7A30923B9501700A1;
+			remoteInfo = "Pods-HBCoreAnimation_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00708B11EF79E1EAF8FE21C008D0264C /* Pods-HBCoreAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBCoreAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		00F4759711EBEC157C6A9BF62A7F4C01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0229E8B438B3ED25D1D94214EBBEA603 /* Pods-HBCoreAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBCoreAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05EC10C90E6A510A8D6F170F1746F156 /* Pods-HBCoreAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBCoreAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F1EFF3BAFE1EEE71ED93AC991F23F07 /* Pods-HBCoreAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBCoreAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21875DC7EC94DC1E08995F6CB2ABD64F /* Pods-HBCoreAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBCoreAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		235079850D8DE977054EDA131DDBC6FA /* Pods-HBCoreAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBCoreAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		24A1B1C5D470040A572B916A3D095A0A /* HBCoreAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBCoreAnimation-umbrella.h"; sourceTree = "<group>"; };
+		2E325E8A167BB9DDBFEABEFBF979C480 /* Pods-HBCoreAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBCoreAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		32E77B964479027C488535346EABCAF4 /* Pods-HBCoreAnimation_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HBCoreAnimation_Example"; path = Pods_HBCoreAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1569E1399C357646F734F2F8399937 /* Pods-HBCoreAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBCoreAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		49E62CA64203D337439B7E7E9D270EFF /* HBCoreAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HBCoreAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		542BFD86314FF7A6E410099B0B9096F6 /* HBCoreAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBCoreAnimation.debug.xcconfig; sourceTree = "<group>"; };
+		55CC532D8ACCFFC44E72413619013BAF /* Pods-HBCoreAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBCoreAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		565003676371B48E94000C1716CC5737 /* Pods-HBCoreAnimation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBCoreAnimation_Example-Info.plist"; sourceTree = "<group>"; };
+		58CED1650C4B0FCDF204B1F101ADBD11 /* HBCoreAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBCoreAnimation-prefix.pch"; sourceTree = "<group>"; };
+		632D77A9F544EF89890744126BB75856 /* Pods-HBCoreAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBCoreAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		6BFD06F7754ED54D758C638D8039E698 /* HBCoreAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBCoreAnimation.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		784A5CA2F0D87B830F99D480218D5BD9 /* Pods-HBCoreAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBCoreAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		8210ED6E9D62D0FA0F8B1EE257619699 /* Pods-HBCoreAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBCoreAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8873BD5392B7AF029029367050FE2FC7 /* Pods-HBCoreAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBCoreAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+		8E08BBC57B369E521494BCC4D3EDCEFC /* Pods-HBCoreAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBCoreAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A61D3BD464FE0669065CF8E3795CC423 /* Pods-HBCoreAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBCoreAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7716CCFAB673936AB8B989BC94E0BF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB5BDD8BEDD22508C251C87448704783 /* HBCoreAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBCoreAnimation.release.xcconfig; sourceTree = "<group>"; };
+		BC03155EABBCC942BE47909654FA3DF7 /* Pods-HBCoreAnimation_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HBCoreAnimation_Tests"; path = Pods_HBCoreAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A7D64DFBEC4B93C9ACCEBFA768386A /* HBCoreAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBCoreAnimation-Info.plist"; sourceTree = "<group>"; };
+		D8C7A3B82768C2DB006FE11D /* UIImageView+TickleMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImageView+TickleMe.swift"; path = "HBCoreAnimation/Classes/UIImageView+TickleMe.swift"; sourceTree = "<group>"; };
+		F51190C5EA34984A8505000A7223A7A5 /* Pods-HBCoreAnimation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBCoreAnimation_Tests-Info.plist"; sourceTree = "<group>"; };
+		FB4EDC935537F4A5A10661C8346A4B9F /* HBCoreAnimation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBCoreAnimation; path = HBCoreAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5B8D94E4B863B693C09F1E5F339D51 /* HBCoreAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBCoreAnimation-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281D054884AABAAAFEFCB9578B1A7597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC33D5F313E07A336B3B9D81C1F1202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A460AA02F822CEF35AEF36200D2ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9A977409470315D5D374E01FA5248E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848D0C6027A5A32D0934DF452F80BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF3EEB32D6D4F0EB593805ACB9E5338 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2881153B02A16EB3B7C69D07F28A6DEE /* HBCoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D8C7A3B82768C2DB006FE11D /* UIImageView+TickleMe.swift */,
+				50D5BB14F193624D2D263A34CEA5F925 /* Pod */,
+				EEF5FFAB8204ADC7E4DC74B7F9EA600C /* Support Files */,
+			);
+			name = HBCoreAnimation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		50D5BB14F193624D2D263A34CEA5F925 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				49E62CA64203D337439B7E7E9D270EFF /* HBCoreAnimation.podspec */,
+				A7716CCFAB673936AB8B989BC94E0BF6 /* LICENSE */,
+				00F4759711EBEC157C6A9BF62A7F4C01 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8651DFFA570F2095D1DC953357E7BB04 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2881153B02A16EB3B7C69D07F28A6DEE /* HBCoreAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		897BD1F10BD5ED62A3F5C29FBB5E4414 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95E3E203B9B4EEDA4C583057F2B8593C /* Pods-HBCoreAnimation_Example */,
+				FE7C385E2F78A316999BDEE80A120DE9 /* Pods-HBCoreAnimation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95E3E203B9B4EEDA4C583057F2B8593C /* Pods-HBCoreAnimation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				235079850D8DE977054EDA131DDBC6FA /* Pods-HBCoreAnimation_Example.modulemap */,
+				05EC10C90E6A510A8D6F170F1746F156 /* Pods-HBCoreAnimation_Example-acknowledgements.markdown */,
+				0F1EFF3BAFE1EEE71ED93AC991F23F07 /* Pods-HBCoreAnimation_Example-acknowledgements.plist */,
+				3C1569E1399C357646F734F2F8399937 /* Pods-HBCoreAnimation_Example-dummy.m */,
+				55CC532D8ACCFFC44E72413619013BAF /* Pods-HBCoreAnimation_Example-frameworks.sh */,
+				565003676371B48E94000C1716CC5737 /* Pods-HBCoreAnimation_Example-Info.plist */,
+				8873BD5392B7AF029029367050FE2FC7 /* Pods-HBCoreAnimation_Example-umbrella.h */,
+				00708B11EF79E1EAF8FE21C008D0264C /* Pods-HBCoreAnimation_Example.debug.xcconfig */,
+				2E325E8A167BB9DDBFEABEFBF979C480 /* Pods-HBCoreAnimation_Example.release.xcconfig */,
+			);
+			name = "Pods-HBCoreAnimation_Example";
+			path = "Target Support Files/Pods-HBCoreAnimation_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8651DFFA570F2095D1DC953357E7BB04 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DD610937693D8EDBE99721B6A9463616 /* Products */,
+				897BD1F10BD5ED62A3F5C29FBB5E4414 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD610937693D8EDBE99721B6A9463616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4EDC935537F4A5A10661C8346A4B9F /* HBCoreAnimation */,
+				32E77B964479027C488535346EABCAF4 /* Pods-HBCoreAnimation_Example */,
+				BC03155EABBCC942BE47909654FA3DF7 /* Pods-HBCoreAnimation_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF5FFAB8204ADC7E4DC74B7F9EA600C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BFD06F7754ED54D758C638D8039E698 /* HBCoreAnimation.modulemap */,
+				FF5B8D94E4B863B693C09F1E5F339D51 /* HBCoreAnimation-dummy.m */,
+				C5A7D64DFBEC4B93C9ACCEBFA768386A /* HBCoreAnimation-Info.plist */,
+				58CED1650C4B0FCDF204B1F101ADBD11 /* HBCoreAnimation-prefix.pch */,
+				24A1B1C5D470040A572B916A3D095A0A /* HBCoreAnimation-umbrella.h */,
+				542BFD86314FF7A6E410099B0B9096F6 /* HBCoreAnimation.debug.xcconfig */,
+				BB5BDD8BEDD22508C251C87448704783 /* HBCoreAnimation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HBCoreAnimation";
+			sourceTree = "<group>";
+		};
+		FE7C385E2F78A316999BDEE80A120DE9 /* Pods-HBCoreAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				632D77A9F544EF89890744126BB75856 /* Pods-HBCoreAnimation_Tests.modulemap */,
+				0229E8B438B3ED25D1D94214EBBEA603 /* Pods-HBCoreAnimation_Tests-acknowledgements.markdown */,
+				A61D3BD464FE0669065CF8E3795CC423 /* Pods-HBCoreAnimation_Tests-acknowledgements.plist */,
+				784A5CA2F0D87B830F99D480218D5BD9 /* Pods-HBCoreAnimation_Tests-dummy.m */,
+				F51190C5EA34984A8505000A7223A7A5 /* Pods-HBCoreAnimation_Tests-Info.plist */,
+				8210ED6E9D62D0FA0F8B1EE257619699 /* Pods-HBCoreAnimation_Tests-umbrella.h */,
+				21875DC7EC94DC1E08995F6CB2ABD64F /* Pods-HBCoreAnimation_Tests.debug.xcconfig */,
+				8E08BBC57B369E521494BCC4D3EDCEFC /* Pods-HBCoreAnimation_Tests.release.xcconfig */,
+			);
+			name = "Pods-HBCoreAnimation_Tests";
+			path = "Target Support Files/Pods-HBCoreAnimation_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02AD3229E4423243B98E74435925C122 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B703FED5F4EB07CD56709F25FC40D0 /* HBCoreAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D5B12EDEFD252ABC493E3FA9D90D40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CA2A41B38C58604250118763E89ECE /* Pods-HBCoreAnimation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DD5C4EE9176572ECACE397587C29E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E97F855DA03F22C29C265829A2D90E /* Pods-HBCoreAnimation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AB16C68703CF3A7A30923B9501700A1 /* Pods-HBCoreAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6492DC629000931141B40C7F49DC8A /* Build configuration list for PBXNativeTarget "Pods-HBCoreAnimation_Example" */;
+			buildPhases = (
+				34D5B12EDEFD252ABC493E3FA9D90D40 /* Headers */,
+				705ED7DB58931F9E2CA36A429AD1D708 /* Sources */,
+				281D054884AABAAAFEFCB9578B1A7597 /* Frameworks */,
+				061E2E6719F5FC4A4E8B7F1A58EA69BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58C8D3844ED4302329B6083FC0046FED /* PBXTargetDependency */,
+			);
+			name = "Pods-HBCoreAnimation_Example";
+			productName = Pods_HBCoreAnimation_Example;
+			productReference = 32E77B964479027C488535346EABCAF4 /* Pods-HBCoreAnimation_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		622F79312714EAC3C7EE13EC157D625A /* HBCoreAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25CA6AA552B1288A3E1CE3844C6F328D /* Build configuration list for PBXNativeTarget "HBCoreAnimation" */;
+			buildPhases = (
+				02AD3229E4423243B98E74435925C122 /* Headers */,
+				51BC704BF0CD17C7788381AB277867C7 /* Sources */,
+				C4A460AA02F822CEF35AEF36200D2ECB /* Frameworks */,
+				99A684F5CD08AF9F507C8729C9A1B6B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBCoreAnimation;
+			productName = HBCoreAnimation;
+			productReference = FB4EDC935537F4A5A10661C8346A4B9F /* HBCoreAnimation */;
+			productType = "com.apple.product-type.framework";
+		};
+		B134FB56E5C6D3BBC03B5F90095ABB8B /* Pods-HBCoreAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF545F25D72E8850D02D63DC8B06AE2 /* Build configuration list for PBXNativeTarget "Pods-HBCoreAnimation_Tests" */;
+			buildPhases = (
+				70DD5C4EE9176572ECACE397587C29E7 /* Headers */,
+				1E8A134E550DED3BDDA46F49A8239445 /* Sources */,
+				D848D0C6027A5A32D0934DF452F80BC3 /* Frameworks */,
+				CB3E023336222A1A1D0CC6586F3F6F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E30988ECF5376139DB7C9CC62C8B0389 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBCoreAnimation_Tests";
+			productName = Pods_HBCoreAnimation_Tests;
+			productReference = BC03155EABBCC942BE47909654FA3DF7 /* Pods-HBCoreAnimation_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DD610937693D8EDBE99721B6A9463616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				622F79312714EAC3C7EE13EC157D625A /* HBCoreAnimation */,
+				2AB16C68703CF3A7A30923B9501700A1 /* Pods-HBCoreAnimation_Example */,
+				B134FB56E5C6D3BBC03B5F90095ABB8B /* Pods-HBCoreAnimation_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		061E2E6719F5FC4A4E8B7F1A58EA69BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A684F5CD08AF9F507C8729C9A1B6B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3E023336222A1A1D0CC6586F3F6F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8A134E550DED3BDDA46F49A8239445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125008E7C3C90770FC7A43C93D722DC8 /* Pods-HBCoreAnimation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BC704BF0CD17C7788381AB277867C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327CC80E52019EC2321C768F45000368 /* HBCoreAnimation-dummy.m in Sources */,
+				D8C7A3B92768C2DB006FE11D /* UIImageView+TickleMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705ED7DB58931F9E2CA36A429AD1D708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588AA91AFD282F7E0D4A30C8B7AE5FA5 /* Pods-HBCoreAnimation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58C8D3844ED4302329B6083FC0046FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBCoreAnimation;
+			target = 622F79312714EAC3C7EE13EC157D625A /* HBCoreAnimation */;
+			targetProxy = 8780D0973C475958B84529281436A4D4 /* PBXContainerItemProxy */;
+		};
+		E30988ECF5376139DB7C9CC62C8B0389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HBCoreAnimation_Example";
+			target = 2AB16C68703CF3A7A30923B9501700A1 /* Pods-HBCoreAnimation_Example */;
+			targetProxy = E389261A0B35D82C2DBE1543BBF1AB30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15A8D074B9004D373CC49348EEA2A9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21875DC7EC94DC1E08995F6CB2ABD64F /* Pods-HBCoreAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBCoreAnimation_Tests/Pods-HBCoreAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBCoreAnimation_Tests/Pods-HBCoreAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7F35CEEFCBCC3FEE7BE188E588281F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E325E8A167BB9DDBFEABEFBF979C480 /* Pods-HBCoreAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBCoreAnimation_Example/Pods-HBCoreAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBCoreAnimation_Example/Pods-HBCoreAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C1A15EDDD4F6B036A4E52F87C257AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5BDD8BEDD22508C251C87448704783 /* HBCoreAnimation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBCoreAnimation/HBCoreAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBCoreAnimation/HBCoreAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBCoreAnimation/HBCoreAnimation.modulemap";
+				PRODUCT_MODULE_NAME = HBCoreAnimation;
+				PRODUCT_NAME = HBCoreAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C46AD5A25A6310FDC0235FDD466F8D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542BFD86314FF7A6E410099B0B9096F6 /* HBCoreAnimation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBCoreAnimation/HBCoreAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBCoreAnimation/HBCoreAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBCoreAnimation/HBCoreAnimation.modulemap";
+				PRODUCT_MODULE_NAME = HBCoreAnimation;
+				PRODUCT_NAME = HBCoreAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFD57AF653B02F9C266F4012C6B042D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00708B11EF79E1EAF8FE21C008D0264C /* Pods-HBCoreAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBCoreAnimation_Example/Pods-HBCoreAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBCoreAnimation_Example/Pods-HBCoreAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7DB3C0AC411C7E4089B33393068204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E08BBC57B369E521494BCC4D3EDCEFC /* Pods-HBCoreAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBCoreAnimation_Tests/Pods-HBCoreAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBCoreAnimation_Tests/Pods-HBCoreAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25CA6AA552B1288A3E1CE3844C6F328D /* Build configuration list for PBXNativeTarget "HBCoreAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46AD5A25A6310FDC0235FDD466F8D78 /* Debug */,
+				8C1A15EDDD4F6B036A4E52F87C257AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6492DC629000931141B40C7F49DC8A /* Build configuration list for PBXNativeTarget "Pods-HBCoreAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD57AF653B02F9C266F4012C6B042D0 /* Debug */,
+				7F35CEEFCBCC3FEE7BE188E588281F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF545F25D72E8850D02D63DC8B06AE2 /* Build configuration list for PBXNativeTarget "Pods-HBCoreAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A8D074B9004D373CC49348EEA2A9E0 /* Debug */,
+				D7DB3C0AC411C7E4089B33393068204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

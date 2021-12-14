@@ -1,0 +1,16 @@
+PODS:
+  - HBCoreAnimation (0.1.0)
+
+DEPENDENCIES:
+  - HBCoreAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  HBCoreAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBCoreAnimation: 3e898e1fd7a14a04924635c360784f86a9810ee6
+
+PODFILE CHECKSUM: c42097030ed374cd99ab9420768d3781332d7ed5
+
+COCOAPODS: 1.11.2

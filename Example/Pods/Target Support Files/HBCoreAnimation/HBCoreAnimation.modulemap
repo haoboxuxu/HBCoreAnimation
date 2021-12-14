@@ -1,0 +1,6 @@
+framework module HBCoreAnimation {
+  umbrella header "HBCoreAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
