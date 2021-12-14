@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HBCoreAnimation_Example' do
+  pod 'HBCoreAnimation', :path => '../'
+
+  target 'HBCoreAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
